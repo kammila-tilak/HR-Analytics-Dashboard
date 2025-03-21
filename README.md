@@ -80,12 +80,12 @@ git clone https://github.com/kammila-tilak/hr-analytics-dashboard.git
 ```
 ---
 
-## 📸 Screenshots  
-### Light Theme  
-![image-alt]()
+ 
+## Light Theme  
+![image-alt](https://github.com/kammila-tilak/HR-Analytics-Dashboard/blob/9b910d37bd52fa743e70bb90937e6f34be8422bc/Light%20Theme.png)
 
-### Dark Theme  
-![image-alt]()
+## Dark Theme  
+![image-alt](https://github.com/kammila-tilak/HR-Analytics-Dashboard/blob/9b910d37bd52fa743e70bb90937e6f34be8422bc/Dark%20Theme.png)
 
 ---
 
