@@ -66,7 +66,10 @@ Open the Power BI file (.pbix) in Power BI Desktop.
 Load the dataset and explore the interactive dashboard.
 
 📸 Screenshots
+Light Theme
+![image-alt](https://github.com/kammila-tilak/HR-Analytics-Dashboard/blob/b1ac15db7fff0cf3f9a1d7b4c725bcd68b69f361/Light%20Theme.png)
 
+Dark Theme
 
 📞 Contact
 For any queries or suggestions, feel free to reach out:
