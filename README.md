@@ -1,10 +1,10 @@
-# 📊 HR Analytics Dashboard
+# HR Analytics Dashboard
 
 This repository contains an **HR Analytics Dashboard** developed using **Power BI** to analyze employee data. The dashboard offers insights into workforce demographics, attrition trends, job satisfaction, and average salary statistics. It serves as a valuable tool for HR teams to make data-driven decisions and improve employee retention strategies.
 
 ---
 
-## 🔍 Project Overview  
+## Project Overview  
 The HR Analytics Dashboard aims to:  
 - Understand the overall employee distribution and demographics.  
 - Analyze attrition trends by years at the company and education field.  
@@ -13,7 +13,7 @@ The HR Analytics Dashboard aims to:
 
 ---
 
-## 📁 Dataset Details  
+## Dataset Details  
 The dataset includes the following fields:  
 - **Employee Demographics:** Gender, Age, Education Field, Department  
 - **Work-Related Information:** Job Role, Years at Company, Salary, Business Travel  
@@ -21,7 +21,7 @@ The dataset includes the following fields:
 
 ---
 
-## 📊 Dashboard Features  
+## Dashboard Features  
 ### **KPIs:**  
 - **Total Employees:** 1,470  
 - **Attrition Count:** 237 employees  
@@ -40,15 +40,56 @@ The dataset includes the following fields:
 
 ---
 
-## 🛠️ Technologies Used  
+## Technologies Used  
 - **Power BI:** For data visualization and interactive dashboard creation.  
-- **DAX (Data Analysis Expressions):** For creating calculated measures and extracting meaningful insights.  
+- **DAX (Data Analysis Expressions):** For creating calculated measures and extracting meaningful insights.
+- **EXCEL:** Used for initial data cleaning, preprocessing, and organizing the dataset before importing it into Power BI. It helped in removing duplicates, handling missing values, and performing basic statistical analysis. 
 
 ---
 
-## 📏 DAX Calculations  
+## DAX Calculations  
 - **Attrition Percentage:**  
 ```DAX
 Attrition Percentage = DIVIDE([Attrition Count], [Total Employees], 0)
+```
+- **Average Salary:** 
+```
 Avg Salary = AVERAGE(EmployeeData[Salary])
-Avg Years = AVERAGE(EmployeeData[YearsAtCompany])
+```
+---
+
+## Key Insights  
+- **Attrition Analysis:** High attrition observed among employees with **0-5 years** of experience.  
+- **Education Field:** Life Sciences and Medical fields have higher attrition rates.  
+- **Job Satisfaction:** Varies significantly across job roles, with **Research Scientists** showing higher satisfaction.  
+- **Average Salary and Tenure:** Potential correlation between **higher salaries** and **longer tenure**.  
+
+---
+
+## Future Enhancements  
+- Implement **predictive analytics** to identify potential attrition risks.  
+- Analyze correlations between **job satisfaction** and **work-life balance**.  
+- Incorporate additional metrics like **performance ratings** and **absenteeism**.  
+
+---
+
+## How to Use  
+1. **Clone the repository:**  
+```bash
+git clone https://github.com/kammila-tilak/hr-analytics-dashboard.git
+```
+---
+
+## 📸 Screenshots  
+### Light Theme  
+![image-alt]()
+
+### Dark Theme  
+![image-alt]()
+
+---
+
+## Contact  
+For any queries or suggestions, feel free to reach out:  
+- **Email:** [kammilatilak@gmail.com](mailto:kammilatilak@gmail.com)  
+- **LinkedIn:** [Tilak Kammila](https://www.linkedin.com/in/tilak-kammila)  
